@@ -23,7 +23,7 @@ const VideoBackground: React.FC<VideoBackgroundProps> = ({ videoUrl, children })
         muted
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
-        src="/src/video/coffe.mp4"
+        src="https://www.pexels.com/video/making-a-hot-cup-of-brewed-coffee-2849956/"
       >
         Your browser does not support the video tag.
 
