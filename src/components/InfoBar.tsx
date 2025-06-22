@@ -13,7 +13,7 @@ const InfoBar: React.FC = () => {
           
           <div className="flex items-center">
             <MapPin className="mr-2 text-orange-300" size={18} />
-            <span>Rua Tommasso Giovanni, São Paulo - SP</span>
+            <span>Rua Tommasso Giordanni, São Paulo - SP</span>
           </div>
           
           <div className="flex items-center">
