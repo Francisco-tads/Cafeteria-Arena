@@ -38,7 +38,7 @@ export const products: Product[] = [
     description: "Espresso com chocolate, leite vaporizado e chantilly.",
     price: 10.90,
     oldPrice: 12.90,
-    image: "https://images.pexels.com/photos/6802983/pexels-photo-6802983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://images.pexels.com/photos/17506126/pexels-photo-17506126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     category: "Cafés",
     featured: false,
     isPromotion: true
@@ -60,7 +60,7 @@ export const products: Product[] = [
     name: "Pão de Queijo",
     description: "Tradicional pão de queijo mineiro, quentinho e macio.",
     price: 4.50,
-    image: "https://images.pexels.com/photos/5639386/pexels-photo-5639386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://images.pexels.com/photos/30410456/pexels-photo-30410456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     category: "Salgados",
     featured: true,
     isPromotion: false
@@ -70,7 +70,7 @@ export const products: Product[] = [
     name: "Misto Quente",
     description: "Sanduíche com presunto e queijo derretido no pão francês.",
     price: 8.90,
-    image: "https://images.pexels.com/photos/15012326/pexels-photo-15012326/free-photo-of-sanduiche-de-presunto-e-queijo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://static.ifood-static.com.br/image/upload/t_high/pratos/69a86215-1569-45ea-89ca-0a98dc9b2e44/202401051852_K40I_i.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     category: "Salgados",
     featured: false,
     isPromotion: false
@@ -91,7 +91,7 @@ export const products: Product[] = [
     name: "Coxinha de Frango",
     description: "Coxinha tradicional de frango com massa macia.",
     price: 5.90,
-    image: "https://images.pexels.com/photos/4193037/pexels-photo-4193037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://images.pexels.com/photos/17409458/pexels-photo-17409458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     category: "Salgados",
     featured: false,
     isPromotion: false
@@ -101,7 +101,7 @@ export const products: Product[] = [
     name: "Pão na Chapa",
     description: "Pão francês na chapa com manteiga.",
     price: 4.90,
-    image: "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://somor.com.br/wp-content/uploads/2019/07/03-interno.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     category: "Salgados",
     featured: true,
     isPromotion: false
@@ -144,7 +144,7 @@ export const products: Product[] = [
     name: "Pudim",
     description: "Pudim de leite condensado tradicional.",
     price: 6.90,
-    image: "https://images.pexels.com/photos/12319903/pexels-photo-12319903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://images.pexels.com/photos/302468/pexels-photo-302468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     category: "Bolos e Doces",
     featured: false,
     isPromotion: false
@@ -154,7 +154,7 @@ export const products: Product[] = [
     name: "Torta de Limão",
     description: "Torta de limão com massa crocante e cobertura de merengue.",
     price: 9.90,
-    image: "https://images.pexels.com/photos/9833518/pexels-photo-9833518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://images.pexels.com/photos/14187831/pexels-photo-14187831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     category: "Bolos e Doces",
     featured: false,
     isPromotion: false
@@ -171,22 +171,35 @@ export const products: Product[] = [
     featured: false,
     isPromotion: false
   },
+  
   {
     id: 17,
-    name: "Chocolate Quente",
-    description: "Chocolate quente cremoso com chantilly.",
-    price: 9.90,
-    image: "https://images.pexels.com/photos/5662282/pexels-photo-5662282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    name: "Água Mineral",
+    description: "Água mineral sem gás.",
+    price: 3.50,
+    image: "https://images.pexels.com/photos/12165163/pexels-photo-12165163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     category: "Bebidas",
     featured: false,
     isPromotion: false
   },
-  {
+
+ {
     id: 18,
     name: "Água Mineral",
-    description: "Água mineral sem gás.",
+    description: "Água mineral com gás.",
     price: 3.50,
-    image: "https://images.pexels.com/photos/1346155/pexels-photo-1346155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://images.pexels.com/photos/16151001/pexels-photo-16151001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    category: "Bebidas",
+    featured: false,
+    isPromotion: false
+  },
+
+   {
+    id: 19,
+    name: "Refrigerantes",
+    description: "Coca Cola...",
+    price: 6.00,
+    image: "https://images.pexels.com/photos/15811838/pexels-photo-15811838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     category: "Bebidas",
     featured: false,
     isPromotion: false
